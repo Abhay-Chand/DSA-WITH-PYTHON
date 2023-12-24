@@ -1,6 +1,6 @@
 # DSA-WITH-PYTHON
-# basic of python
-Learn Data Structure and Algorithms
+1.basic of python
+2. Data Structure and Algorithms
 1) Array
 2) String
 3) Linked List
