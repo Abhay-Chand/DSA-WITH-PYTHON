@@ -1,0 +1,93 @@
+Types of Control Flow in Python:
+1.The if statement
+2.The if-else statement
+3.The nested-if statement
+4.The if-elif-else ladder
+
+1.if statement:(syntex)    
+if condition:                                                                     
+   statement1
+statement2
+# Here if the condition is true, if block  will consider only statement1 to be inside  its block.
+1. IF STATEMENT EXAMPLE:
+# Python program to show how if statements control loops  
+  
+n = 5  
+for i in range(n):  
+    if i < 2:  
+        i += 1  
+    if i > 2:  
+        i -= 2  
+    print(i)
+
+2. EXAMPLE 2ND:
+# Python program to show how to control the flow of loops with the break statement  
+  
+Details = [[19, 'Itika', 'Jaipur'], [16, 'Aman', 'Bihar']]  
+for candidate in Details:  
+    age = candidate[0]  
+    if age <= 18:  
+        break  
+    print (f"{candidate[1]} of state {candidate[2]} is eligible to vote")  
+3. EXAMPLE 3RD:
+# Python program to show how to control the flow of a loop using a continue statement  
+# Printing only the letters of the string  
+for l in 'I am a coder':  
+    if l == ' ':  
+        continue  
+    print ('Letter: ', l)  
+4. EXAMPLE 4TH:
+# Python program to show how to create empty code blocks using a pass statement  
+for l in 'Python':  
+    if l == 't':  
+        pass  
+    print('Letter: ', l)  
+5.EXAMPLE 5TH:
+# Simple Python Program to print the largest of the three numbers.  
+a = int (input("Enter a: "));    
+b = int (input("Enter b: "));    
+c = int (input("Enter c: "));    
+if a>b and a>c:    
+# Here, we are checking the condition. If the condition is true, we will enter the block  
+    print ("From the above three numbers given a is largest");    
+if b>a and b>c:    
+# Here, we are checking the condition. If the condition is true, we will enter the block  
+    print ("From the above three numbers given b is largest");    
+if c>a and c>b:    
+# Here, we are checking the condition. If the condition is true, we will enter the block  
+    print ("From the above three numbers given c is largest");  
+
+
+
+
+
+2.if-else statement:(SYNTEX)
+if (condition):
+    # Executes this block if
+    # condition is true
+else:
+    # Executes this block if
+    # condition is false
+
+EXAMPLE 1ST:
+# Simple Python Program to check whether a person is eligible to vote or not.  
+age = int (input("Enter your age: "))    
+# Here, we are taking an integer num and taking input dynamically  
+if age>=18:    
+# Here, we are checking the condition. If the condition is true, we will enter the block  
+    print("You are eligible to vote !!");    
+else:    
+    print("Sorry! you have to wait !!");
+
+
+EXAMPLE 2ND:
+# Simple Python Program to check whether a number is even or not.  
+num = int(input("enter the number:"))         
+# Here, we are taking an integer num and taking input dynamically  
+if num%2 == 0:      
+# Here, we are checking the condition. If the condition is true, we will enter the block  
+    print("The Given number is an even number")    
+else:    
+    print("The Given Number is an odd number")    
+
+
